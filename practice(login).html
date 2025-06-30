@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&family=Bebas+Neue&family=Caprasimo&family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    body {
+      background-image: url(https://motionbgs.com/media/302/black-ferrari-fxx-k.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+
+      text-align: left;
+
+    }
+
+    form {
+      border: 2px;
+      margin-left: 50px;
+    }
+
+    h1 {
+      font-family: Bebas+Neue;
+      margin-left: 7vw;
+      text-shadow: 0px 0px 4px rgb(234 237 203);
+    }
+
+    button {
+      margin-left: 20px;
+      background-color: black;
+      color: white;
+      width: 15vw;
+      height: 4vh;
+      border-radius: 15px;
+      box-shadow: -9px 7px 8px rgb(234 237 203);
+    }
+
+    button:hover {
+      background-color: azure;
+      color: black;
+
+    }
+
+    input {
+      background-color: transparent;
+      border-color: black;
+
+
+    }
+
+    label {
+
+      color: azure
+    }
+
+    .box {
+      width: 15vw;
+      height: 4vh;
+
+      box-shadow: inset 7px 4px 5px 2px #c36b16;
+      border-radius: 15px;
+      outline: 4px solid black;
+      outline-offset: 3px;
+
+    }
+
+    /* input[type="radio"] {
+ display: none; 
+   display:flex; 
+  display:grid;
+} */
+  </style>
+
+
+</head>
+
+<body>
+  <pre>
+    <div>
+  <form action="post">
+    <h1>login </h1>
+    <label>username:</label>
+
+    <input class="box" type="text" name="username"placeholder="enter username">
+
+    <label>email id:</label>
+
+    <input class="box" type="emailid" name="emailid" placeholder="emailid">
+
+    <label>password:</label>
+
+    <input class="box" type="password" name="password" placeholder="enter password">
+   
+    <label>select your gender:</label>
+
+    <input type="radio" name="gender" value="male"><label>male</label> <input type="radio" name="gender" value="female"><label>female</label>
+
+    <select name="profession">proffesion
+      <option value="teacher">teacher</option>
+      <option value="student">student</option>
+<option value="fresher">fresher</option>
+    </select>
+    
+  <button>log in</button>
+
+    
+    
+</div>
+
+  </pre>
+  </form>
+</body>
+
+</html>
